@@ -43,7 +43,7 @@ def ask():
         CMD: exit | Exits the program...
         CMD: start| Starts the injection!
         CMD: disc | Copies discord to clipboard!
-        CMD: xps  | takes you to https://xps.rf.gd
+        CMD: eth  | takes you to ETH API
         -------------------------------------------
         Credits:
         Made by Armor#0690
@@ -61,8 +61,8 @@ def ask():
     elif (CMD == "disc"):
         copy_discord()
         ask()
-    elif (CMD == "xps"):
-        os.system("start https://xps.rf.gd")
+    elif (CMD == "eth"):
+        os.system("start https://ethapi.armorcodeditlol.repl.co")
         ask()
     elif (CMD == "chacha"):
         global ison
