@@ -1,5 +1,4 @@
 #Made by Armor
-#This is not an opensource project, it is under a DO NOT DISTRIBUTE license.
 #Import libraries
 from weld import program, privacy
 import pyperclip
